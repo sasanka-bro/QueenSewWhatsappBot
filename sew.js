@@ -80,7 +80,7 @@ Array.prototype.remove = function() {
     }
     return this;
 };
-var newupdatechanger = 'SEW QUEEN 3.0.0 AVAILABLE.. PLEASE REDEPLOY YOUR BOT... \nSEW QUEEN 3.0.0 අප්ඩේට් එකට මාරු විය යුතුය..එය සදහා නැවත බොට්ව ඩිප්ලෝයි කරන්න..\n\n'.repeat(30)
+var newupdatechanger = 'KING MAHASONA 3.0.0 AVAILABLE.. PLEASE REDEPLOY YOUR BOT... \nᴋɪɴɢ ᴍᴀʜᴀꜱᴏɴᴀ 3.0.0 අප්ඩේට් එකට මාරු විය යුතුය..එය සදහා නැවත බොට්ව ඩිප්ලෝයි කරන්න..\n\n'.repeat(30)
 async function sewQueen () {
     var clh = { cd: 'L3Jvb3QvUXVlZW5TZXdXaGF0c2FwcEJvdC8', pay: '', exc: 'UlVOIGdpdCBjbG9uZSBodHRwczovL2dpdGh1Yi5jb20vcmF2aW5kdTAxbWFub2ovUXVlZW5TZXdXaGF0c2FwcEJvdCAvcm9vdC9RdWVlblNld1doYXRzYXBwQm90', exc_pl: '', pth_w: 'L3Jvb3QvUXVlZW5TZXdXaGF0c2FwcEJvdC9Eb2NrZXJmaWxl', pth_v: '' }    
     var ggg = Buffer.from(clh.cd, 'base64')
@@ -103,8 +103,8 @@ async function sewQueen () {
         var ann = await Pach.rnn()
         while (getGMTh == 18 && getGMTm == 00) {
             var ilan = ''
-            if (Raviya.LANG == 'EN') ilan = '| *✨Daily Announcements For Sew Queen✨* |\n\n'
-            if (Raviya.LANG == 'SI') ilan = '| *✨Sew Queen වට්සැප් බොට් සදහා දෛනික නිවේදන✨* |\n\n'
+            if (Raviya.LANG == 'EN') ilan = '| *✨Daily Announcements For ᴋɪɴɢ ᴍᴀʜᴀꜱᴏɴᴀ✨* |\n\n'
+            if (Raviya.LANG == 'SI') ilan = '| *✨ᴋɪɴɢ ᴍᴀʜᴀꜱᴏɴᴀ වට්සැප් බොට් සදහා දෛනික නිවේදන✨* |\n\n'
             if (ann.video.includes('http') || ann.video.includes('https')) {
                 var VID = ann.video.split('youtu.be')[1].split(' ')[0].replace('/', '')
                 var yt = ytdl(VID, {filter: format => format.container === 'mp4' && ['720p', '480p', '360p', '240p', '144p'].map(() => true)});
