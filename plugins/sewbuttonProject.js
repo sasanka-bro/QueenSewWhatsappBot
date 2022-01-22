@@ -35,7 +35,7 @@ var rows = [
 //This Is Official Pluging From Ravindu Manoj
 var sections = [{title: "Section 1", rows: rows}]
 var button = {
- buttonText: 'Queensew',
+ buttonText: 'ᴋɪɴɢ ᴍᴀʜᴀꜱᴏɴᴀ',
  description: "Button Checking",
  sections: sections,
  listType: 1
@@ -48,7 +48,7 @@ await message.client.sendMessage(message.jid, button, MessageType.listMessage)
 ]
 
 const buttonMessage = {
-    contentText: "Raviya",
+    contentText: "Sasanka",
     footerText: 'Button Msg Chack',
     buttons: buttons,
     headerType: 1
