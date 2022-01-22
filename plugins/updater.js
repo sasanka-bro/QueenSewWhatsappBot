@@ -47,8 +47,8 @@ QueenSew.newcmdaddtosew({pattern: 'update$', fromMe: true, dontAdCommandList: tr
     }
 }));
 var Action = ''
-if (Config.LANG == 'SI') Action = '*✨SEW QUEEN✨ අප්ඩේට්වෙමින් පවතියි!*'
-if (Config.LANG == 'EN') Action = '*✨Sew Queen✨ is Updating!*'
+if (Config.LANG == 'SI') Action = '*✨ᴋɪɴɢ ᴍᴀʜᴀꜱᴏɴᴀ✨ අප්ඩේට්වෙමින් පවතියි!*'
+if (Config.LANG == 'EN') Action = '*✨ᴋɪɴɢ ᴍᴀʜᴀꜱᴏɴᴀ✨ is Updating!*'
 
 QueenSew.newcmdaddtosew({pattern: 'update now$', fromMe: true, dontAdCommandList: true, desc: Lang.UPDATE_NOW_DESC}, (async (message, match) => {
     await Pach.startwhatsasena()
