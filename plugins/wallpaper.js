@@ -1920,19 +1920,19 @@ else if (Config.WORKTYPE == 'public') {
     }));
     QueenSew.newcmdaddtosew({pattern: 'owner', fromMe: true, dontAdCommandList: true, desc: 'Details For Coder'}, (async (message, match) => {
     var r_text = new Array ();
-    r_text[0] = "https://i.ibb.co/JkjKGTy/temp-user-profile1621662133773.jpg";
-    r_text[1] = "https://i.ibb.co/JkjKGTy/temp-user-profile1621662133773.jpg";
+    r_text[0] = "https://i.ibb.co/txQg1mR/MAHASONA-WHATSAPP-BOT-ALIVE-IMAJE.png";
+    r_text[1] = "https://i.ibb.co/txQg1mR/MAHASONA-WHATSAPP-BOT-ALIVE-IMAJE.png";
     var i = Math.floor(2*Math.random())
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '     *CODED BY RAVINDU MANOJ*\n\n❀Contact me: t.me/RavinduManoj\n\n\nYoutube Channel link 👇\n\n*https://youtube.com/channel/UCMrIJUBgoGCnyO2jLyybIWg*\n\n\n👑My Github Hub Profile👑\n\n*https://github.com/Sew01RaviduManoj01KingAndQueen*\n\n\nMy Website\n\nhttps://ravimano381.wixsite.com/ravindumanoj\n\n\n\nᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇᴡ ǫᴜᴇᴇɴ'})
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '     *CODED BY YUREN SASANKA*\n\n❀Contact me: t.me/Yuren_Sasanka\n\n\nYoutube Channel link 👇\n\n*https://youtube.com/channel/UCMrIJUBgoGCnyO2jLyybIWg*\n\n\n👑My Github Hub Profile👑\n\n*https://github.com/sasanka-bro*\n\n\nMy Website\n\nhttp://www.white-devl.unaux.com\n\n\n\nᴘᴏᴡᴇʀᴅ ʙʏ ᴋɪɴɢ ᴍᴀʜᴀꜱᴏɴᴀ'})
     }));
     QueenSew.newcmdaddtosew({pattern: 'owner', fromMe: false, dontAdCommandList: true, desc: 'Details For Coder'}, (async (message, match) => {
     var r_text = new Array ();
-    r_text[0] = "https://i.ibb.co/JkjKGTy/temp-user-profile1621662133773.jpg";
-    r_text[1] = "https://i.ibb.co/JkjKGTy/temp-user-profile1621662133773.jpg";
+    r_text[0] = "https://i.ibb.co/txQg1mR/MAHASONA-WHATSAPP-BOT-ALIVE-IMAJE.png";
+    r_text[1] = "https://i.ibb.co/txQg1mR/MAHASONA-WHATSAPP-BOT-ALIVE-IMAJE.png";
     var i = Math.floor(2*Math.random())
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '     *CODED BY RAVINDU MANOJ*\n\n❀Contact me: t.me/RavinduManoj\n\n\nYoutube Channel link 👇\n\n*https://youtube.com/channel/UCMrIJUBgoGCnyO2jLyybIWg*\n\n\n👑My Github Hub Profile👑\n\n*https://github.com/Sew01RaviduManoj01KingAndQueen*\n\n\nMy Website\n\nhttps://ravimano381.wixsite.com/ravindumanoj\n\n\n\nᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇᴡ ǫᴜᴇᴇɴ'})
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '     *CODED BY YUREN SASANKA*\n\n❀Contact me: t.me/Yuren_Sasanka\n\n\nYoutube Channel link 👇\n\n*https://youtube.com/channel/UCMrIJUBgoGCnyO2jLyybIWg*\n\n\n👑My Github Hub Profile👑\n\n*https://github.com/sasanka-bro*\n\n\nMy Website\n\nhttp://www.white-devl.unaux.com\n\n\n\nᴘᴏᴡᴇʀᴅ ʙʏ ᴋɪɴɢ ᴍᴀʜᴀꜱᴏɴᴀ'})
     }));
 }
 }
