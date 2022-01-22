@@ -228,7 +228,7 @@ QueenSew.newcmdaddtosew({ pattern: 'sewai ?(.*)', desc: 'ai chat bot on off comm
                     ['FULL_SEW']: 'true'
                 } 
             });
-            await message.client.sendMessage(message.jid, '*Sew is now chat bot*', MessageType.text)
+            await message.client.sendMessage(message.jid, '*ᴋɪɴɢ ᴍᴀʜᴀꜱᴏɴᴀ is now chat bot*', MessageType.text)
         }
     }
     else if (match[1] == 'off') {
